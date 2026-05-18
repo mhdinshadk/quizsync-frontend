@@ -32,7 +32,7 @@ const HomePage = () => {
       setCreating(true);
 
       const response = await axios.post(
-        "http://localhost:5000/api/rooms/create",
+       "https://quizsync-backend-gswt.onrender.com/api/rooms/create",
         {
           hostName: createName,
         }
