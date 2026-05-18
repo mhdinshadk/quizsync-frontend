@@ -1,16 +1,104 @@
-# React + Vite
+# QuizSync Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time multiplayer quiz application frontend built using React, Tailwind CSS, and Socket.IO.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+Frontend URL:
+https://quizsync-frontend.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Backend API:
+https://quizsync-backend-gswt.onrender.com
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Real-time multiplayer quiz rooms
+- Create and join room functionality
+- Live synchronized countdown timer
+- Real-time leaderboard
+- Final score ranking system
+- Responsive modern UI
+- Socket.IO real-time communication
+- Host-controlled quiz start
+- Professional black and white interface
+
+---
+
+## Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- Socket.IO Client
+- React Router DOM
+- Axios
+
+---
+
+## Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/mhdinshadk/quizsync-frontend
+```
+
+Move into project:
+
+```bash
+cd quizsync-frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Environment Variables
+
+Create a `.env` file:
+
+```env
+VITE_BACKEND_URL=http://localhost:5000
+```
+
+---
+
+## Build Project
+
+```bash
+npm run build
+```
+
+---
+
+## Folder Structure
+
+```txt
+src/
+│
+├── components/
+├── pages/
+├── socket/
+├── App.jsx
+├── main.jsx
+```
+
+---
+
+## Author
+
+Muhammed Inshad
